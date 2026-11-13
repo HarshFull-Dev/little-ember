@@ -15,7 +15,7 @@
             <div class="flex gap-2 items-center">
                 <img src="images/logo.png" class="w-[48px] h-[48px]" alt="">
                 <div class="text-[11px] md:text-[14px]">
-                    <p class="font-bold">little ember</p>
+                    <p class="font-bold">Little Ember</p>
                     <p class="text-[#bd4928]">coffee · kitchen · community</p>
                 </div>
             </div>
@@ -60,14 +60,20 @@
         </ul>
     </header>
     <section class="font-[Georgia,serif]">
-        <div class="max-w-[1366px] m-auto px-5 py-[30px] md:px-10 leading-[3]">
-            <p class="text-[#AD4F32]">A little look around</p>
-            <h2 class="font-bold text-[38px] md:text-[48px] leading-[1]">Life at Little Ember</h2>
-            <p>Coffee, crumbs, and the corners we love.</p>
+        <div class="max-w-[1366px] h-[314px] md:h-[414px] m-auto relative">
+            <img src="images/hero-gallery.png" class="w-full h-full object-cover" alt="">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/10"></div>
+            <div class="absolute top-[70px] left-[20px] md:left-[50px] md:top-[50px] leading-[3.5]">
+                <p class="text-[#f2b559] text-[10px] md:text-[13px] font-sans tracking-[3px]">A little look around</p>
+                <h1 class="text-[32px] md:text-[62px] text-white font-bold leading-[1]">Life at Little Ember</h1>
+                <p class="text-[#e7e4e0] tracking-[1px] text-[12px] md:text-[14px] leading-[1.5] mt-4">Coffee, crumbs, and the corners
+                    we love. Take a look at the everyday moments that make this place feel like home.</p>
+            </div>
         </div>
     </section>
     <section>
-        <div class="max-w-[1366px] m-auto pt-5 py-20 px-5 md:px-10 grid auto-rows-[13rem] grid-cols-2 md:grid-cols-4 gap-3">
+        <div
+            class="max-w-[1366px] m-auto pt-5 py-20 px-5 md:px-10 grid auto-rows-[13rem] grid-cols-2 md:grid-cols-4 gap-3">
             <article class="row-span-2 col-span-2 overflow-hidden rounded-[30px] ">
                 <img src="images/cafe-interior.png"
                     class="h-full w-full hover:scale-105 object-cover transition duration-500" alt="">
@@ -92,6 +98,10 @@
                 <img src="images/cafe-table.png"
                     class="w-full h-full hover:scale-105 object-cover transition duration-500" alt="">
             </article>
+            <article class="overflow-hidden rounded-[30px] ">
+                <img src="images/gallery-corner.png"
+                    class="w-full h-full hover:scale-105 object-cover transition duration-500" alt="">
+            </article>
         </div>
     </section>
     <section class="bg-[#F1E8DA]">
@@ -112,15 +122,16 @@
             </div>
             <div class="grid-cols-2 hidden md:block lg:hidden">
                 <div class="leading-[2]">
-                <p>Mornings begin early: the espresso machine warms up, pastries come out of the oven, and the first
-                    light reaches the tables. By lunchtime, there is the sound of plates being shared and friends
-                    finding each other.</p>
-            </div>
-            <div class="leading-[2]">
-                <p>Later, the pace softens again. The cups get refilled, the playlist gets mellow, and the last sun
-                    finds its way to our favourite seats. These are the small scenes that make Little Ember feel like
-                    ours—and yours.</p>
-            </div>
+                    <p>Mornings begin early: the espresso machine warms up, pastries come out of the oven, and the first
+                        light reaches the tables. By lunchtime, there is the sound of plates being shared and friends
+                        finding each other.</p>
+                </div>
+                <div class="leading-[2]">
+                    <p>Later, the pace softens again. The cups get refilled, the playlist gets mellow, and the last sun
+                        finds its way to our favourite seats. These are the small scenes that make Little Ember feel
+                        like
+                        ours—and yours.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -131,16 +142,16 @@
                 <h2 class="font-bold text-[38px] md:text-[48px] leading-[1]">From our counter to your table.</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10">
-                <article class="bg-white max-w-[400px] rounded-[30px]">
-                    <img src="images/barista.png" class="w-full h-[288px] rounded-t-[30px] object-cover" alt="">
+                <article class="bg-white max-w-[400px] rounded-[30px] overflow-hidden">
+                    <img src="images/barista.png" class="w-full h-[288px] rounded-t-[30px] object-cover hover:scale-105 object-cover transition duration-500" alt="">
                     <p class="pr-0 p-5">A fresh cup, made just for you</p>
                 </article>
-                <article class="bg-white max-w-[400px] rounded-[30px]">
-                    <img src="images/dessert.png" class="w-full h-[288px] rounded-t-[30px] object-cover" alt="">
+                <article class="bg-white max-w-[400px] rounded-[30px] overflow-hidden">
+                    <img src="images/dessert.png" class="w-full h-[288px] rounded-t-[30px] object-cover hover:scale-105 object-cover transition duration-500" alt="">
                     <p class="pr-0 p-5">A fresh cup, made just for you</p>
                 </article>
-                <article class="bg-white max-w-[400px] rounded-[30px]">
-                    <img src="images/cafe-table.png" class="w-full h-[288px] rounded-t-[30px] object-cover" alt="">
+                <article class="bg-white max-w-[400px] rounded-[30px] overflow-hidden">
+                    <img src="images/cafe-table.png" class="w-full h-[288px] rounded-t-[30px] object-cover hover:scale-105 object-cover transition duration-500" alt="">
                     <p class="pr-0 p-5">A fresh cup, made just for you</p>
                 </article>
             </div>
@@ -149,13 +160,13 @@
     <footer class="bg-[#07362f] pt-10  ">
         <div class="max-w-[1366px] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-10 md:px-10">
             <div class="leading-[2.5]">
-                <h2 class="text-white text-[24px]">little ember</h2>
+                <h2 class="text-white text-[24px] flex items-center gap-2 mb-[15px]"><img src="images/logo.png" class="w-[45px] h-[45px]" alt=""> Little Ember</h2>
                 <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">Good coffee, slow mornings, and a little warmth in
                     every cup.</p>
             </div>
             <div class="leading-[2.5]">
                 <h2 class="text-white text-[16px]">About</h2>
-                <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">A neighbourhood café in Civil Lines, Jaipur.
+                <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">A neighbourhood cafe in Civil Lines, Jaipur.
                     Thoughtful coffee, seasonal plates, and a welcoming table for everyone.</p>
                 <a href="ourstory.html" class="text-[#f2b559]">Our story →</a>
             </div>
@@ -175,12 +186,12 @@
                 <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">18, Civil Lines <br>
                     Jaipur, Rajasthan 302006 <br>
                     Daily · 8 am – 9 pm</p>
-                <p class="text-[#b5c3c1] text-[14px] mt-4 leading-[1.7]">+91 141 400 1818 <br>
+                <p class="text-[#b5c3c1] text-[14px] mt-4 leading-[1.7]">+91 637 555 7432 <br>
                     hello@littleember.cafe</p>
             </div>
         </div>
         <div class="text-center py-[20px] mt-10 border-t border-[rgb(255 255 255 / 0.1)] ">
-            <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">© 2026 Little Ember Café · Made slowly in Jaipur</p>
+            <p class="text-[#b5c3c1] text-[14px] leading-[1.7]">© 2026 Little Ember Cafe · Made slowly in Jaipur</p>
         </div>
     </footer>
 
